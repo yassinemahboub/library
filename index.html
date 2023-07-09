@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="library.png">
+</head>
+<body>
+
+    <header>
+        <h1>Library</h1>
+        <p>Browse through your library of books...</p>
+        <button class="add-btn">+</button>
+    </header>
+
+    <div class="popup">
+        <form action="" id="myForm">
+            <h2>Add a new book</h2>
+            <div class="input-container">
+                <label for="name">Book Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="input-container">
+                <label for="author">Author</label>
+                <input type="text" name="auhtor" id="author">
+            </div>
+            <div class="input-container">
+                <label for="name">Pages</label>
+                <input type="number" name="pages" id="pages">
+            </div>
+            <div class="input-container">
+                <label for="read">Read or not?</label>
+                <div class="choice-item">
+                    <input type="radio" name="read" id="read" value="yes">
+                    <span>Yes</span>
+                </div>
+                <div class="choice-item">
+                    <input type="radio" name="read" id="read" value="no">
+                    <span>No</span>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="button" class="close_btn">X</button>
+        </form>
+    </div>
+        
+    
+        <div class="book-content">
+            
+            
+        </div>
+    
+    
+</body>
+</html>
